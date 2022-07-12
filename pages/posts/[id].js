@@ -22,7 +22,6 @@ export default function Post({ postData }) {
     </Layout>
   );
 }
-<Layout>...</Layout>;
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id);
